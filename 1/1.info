@@ -1,0 +1,95 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 0.0. Build: 4708
+                Computer name:   DURGANSH
+                User name:   dell
+                Processors:   Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+                Memory:   8063 MB / 1557 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.22000)
+                CAD version:   SOLIDWORKS 2020 SP0.0
+                CPU speed:   1800 MHz
+
+    General Info
+                Model:   ROV Vol 1.SLDPRT
+                Project name:   BTP
+                Project path:   E:\Study\BTP\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar only
+                Cavitation:   Off
+                High Mach number flow:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.685 m
+                X max:   0.685 m
+                Y min:   -0.652 m
+                Y max:   0.705 m
+                Z min:   -0.702 m
+                Z max:   0.663 m
+                X size:   1.370 m
+                Y size:   1.356 m
+                Z size:   1.365 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   32
+                Number of cells in Y:   34
+                Number of cells in Z:   33
+
+        Number Of Cells
+                Cells:   35872
+                Fluid cells:   35872
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   0
+
+    Goals
+
+        Global Goals
+
+            GG Force (Y) 1
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Velocity (Y) 4
+                Type:   Global Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                        	Unit   	Value    	Progress   	Criteria         	Delta            	Use in convergence 
+                GG Force (Y) 1              	N      	87.586   	100        	1.16823876       	0.889807169      	On                 
+                GG Average Velocity (Y) 4   	m/s    	4.494    	100        	0.000159335737   	0.000142163219   	On                 
+
+    General Info
+                Run at:   DURGANSH
+                Number of cores:   8
+                Iterations:   102
+                CPU time:   0 s
+
+        Log
+                Preparing data for calculation	0:   05:41:46 , Apr 30
+                Calculation started	0:   05:41:49 , Apr 30
+                Calculation has converged since the following criteria are satisfied:	102:   05:42:31 , Apr 30
+                    Goals are converged	102:   
+                Calculation finished	102:   05:42:33 , Apr 30
